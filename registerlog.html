@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="css/base.css"  type="text/css" rel="stylesheet" />
+		<link href="css/registerlog.css" type="text/css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/font.css" type="text/css" />
+		<script src="script/jquery-2.1.0.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="header_left">			
+				<a href="index.html"></a>
+				<span>欢迎登陆</span>
+				<div class="header_right">
+					<div>
+						<i>&#xe671;</i>
+						<strong><span>15天</span>无忧退货</strong>
+						<b>为您提供售后无忧保障</b>
+					</div>
+					<div>
+						<i>&#xe608;</i>
+						<strong><span>100%</span>正品保证</strong>
+						<b>品质护航 购物无忧</b>
+					</div>
+					<div>
+						<i>&#xe66d;</i>
+						<strong><span>满299</span>免运费</strong>
+						<b>为您提供便利物流</b>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="main">
+			<div class="main_left">
+				<img src="images/registerlog1.jpg" />
+			</div>
+			<div class="main_right">
+				<ul>
+					<li>
+						<span>银泰护照</span>
+					</li>
+					<li>
+						<span>银泰网账号</span>
+					</li>
+					<li>
+						<span>app扫码登陆</span>
+					</li>
+				</ul>
+				<div class="main_right_dl">
+					<div>
+						<img src="images/registerlog1.png" />
+						<input type="text" placeholder="请输入银泰护照号(手机号)" />
+					</div>
+					<div>
+						<img src="images/registerlog2.png" />
+						<input type="password" placeholder="请输入密码" />
+					</div>
+					<input type="button" value="登  陆" id="dl"/>
+					<p><a href="javascript:;">忘记密码?</a><a href="register.html">注册</a></p>
+				</div>
+				
+				
+				<div class="main_right_dl">
+					<div>
+						<img src="images/registerlog1.png" />
+						<input type="text" placeholder="请输入手机号/邮箱" />
+					</div>
+					<div>
+						<img src="images/registerlog2.png" />
+						<input type="text" placeholder="请输入密码" />
+					</div>
+					<input type="button" value="登  陆" />
+					<p><a href="javascript:;">忘记密码?</a><a href="register.html">注册</a></p>
+				</div>
+					
+					
+					
+				<div class="main_right_dl app">
+					<p>用银泰网APP 扫描二维码安全登录</p>
+					<div>
+						<img src="images/registerlog4.jpg" />
+						<img src="images/registerlog5.png" />
+					</div>
+					<p><a href="javascript:;">下载银泰网APP</a><a href="javascript:;">使用帮助</a></p>
+					<span>仅限4.1.1以上版本使用</span>
+				</div>
+				
+				
+				<div class="mian_right_down">
+					<p><span>您可以使用合作网站账号登陆</span></p>
+						<span><a href="javascript:;">QQ</a></span>
+						<span><a href="javascript:;">支付宝</a></span>
+						<span><a href="javascript:;">微博</a></span>
+				</div>
+				
+				
+						
+				<div class="tishi">
+					<div>
+						<b>温馨提示</b>
+						<p>请输入手机号码</p>
+						<span>确定</span>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+		
+		<div id="fonter">
+			
+			<script>
+			
+					$("#fonter").load("font.html",function(){
+					$(".fonter_middle").remove();
+				});
+
+				window.onload=function(){
+					console.log(localStorage)
+				}
+			</script>
+			
+		</div>
+	</body>
+	<script src="script/registerlog.js"></script>
+</html>

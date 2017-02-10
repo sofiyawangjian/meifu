@@ -1,0 +1,1008 @@
+body{
+    background: #EEEEEE;
+    height: 3000px;
+}
+#main_wrap{
+    width: 100%;
+    border-top: 1px solid black;
+}
+#main{
+    width: 1190px;
+    margin: auto;
+}
+.buy{
+    height: 590px;
+    background: white;
+    &>p{
+        height: 47px;
+        line-height: 47px;
+        padding-left: 20px;
+        background: #F4F4F4;
+        a:hover{
+            color: #E50048;
+        }
+    }
+}
+.buy_main{
+    height: 590-47px;
+    padding: 20px 10px 20px 55px;
+    box-sizing: border-box;
+}
+.buy_main_fdj{
+    height: 510px;
+    width: 320px;
+    float: left;
+    position: relative;
+}
+.fdj_big{
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    background-image: url(../images/shopxq/fdjbig1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    cursor: move;
+}
+.fdj_move{
+    width: 157px;
+    height: 157px;
+    background: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.fdj_fd{
+    width: 400px;
+    height: 400px;
+    border: 1px solid white;
+    position: absolute;
+    left: 120%;
+    top: 0;
+    background-image: url(../images/shopxq/fdjbig1.jpg);
+    background-repeat: no-repeat;
+    z-index: 10;
+    display: none;
+    img{
+        display: none;
+    }
+}
+.fdj_small{
+    height: 60px;
+    width: 280px;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    ul{
+        height: 60px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    li{
+        width: 60px;
+        height: 60px;
+        float: left;
+        line-height: 60px;
+        text-align: center;
+        padding-top: 5px;
+        box-sizing: border-box;
+        border: 1px solid #CCCCCC;
+        margin-right: 10px;
+        img{
+         width: 80%;
+         height: 90%;
+        }
+    }
+     li:hover{
+            border-color: #999;
+        }
+}
+.fdj_small_btnL{
+        position: absolute;
+        left: 0px;
+        bottom: 25px;
+        width: 10px;
+        height:60px;
+        background: url(../images/shopxq/btn.png) no-repeat;
+        background-position: -28px -20px;
+}
+.fdj_small_btnR{
+    .fdj_small_btnL;
+    left: 300px;
+    background-position: -66px -20px;
+}
+.fdj_font{
+    height: 30px;
+    margin-top: 10px;
+    position: relative;
+    li{
+        height: 30px;
+        float: left;
+        line-height: 30px;
+        width: 30px;
+        cursor: pointer;
+        margin-left: 10px;
+        border: 1px solid transparent;
+        background-color: white;
+        box-sizing: border-box;
+        
+        &:hover{
+            border-color: #CCCCCC;
+            z-index: 5;
+            position: relative;
+            border-bottom: none;
+        }
+    }
+    li:nth-child(1){
+        margin: 0;
+        color: #333;
+        width: 140px;
+        cursor:auto;
+        border: none;
+    }
+    li:nth-child(2){
+        width: 60px;
+        padding-left: 30px;
+        background-image: url(../images/shopxq/icon.png);
+        background-repeat: no-repeat;
+        background-position: -52px 2px;
+        color:#666;
+        &:hover{
+            border-color: #E50048;
+            color: #E50048;
+            border-bottom: 1px solid #E50048;
+        }
+    }
+    li:nth-child(3){
+        background-image: url(../images/shopxq/icon.png);
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+    }
+    li:nth-child(5){
+        background-image: url(../images/shopxq/icon.png);
+        background-repeat: no-repeat;
+        background-position: -25px 0px;
+    }
+     div{
+            position: absolute;
+            top: 94%;
+            left: 220px;
+            width: 230px;
+            height: 105px;
+            border: 1px solid #CCCCCC;
+            background: white;
+            z-index: 4;
+            padding: 15px 10px;
+            box-sizing: border-box;
+            display: none;
+            a{
+                display: block;
+                float: left;
+                width: 80px;
+                height: 80px;
+                background: url(../images/shopxq/ewm.png);
+                background-size: 100% 100%;
+            }
+            p{
+                text-align: center;
+                margin-top: 30px;
+                float: left;
+                margin-left: 15px;
+            }
+        }
+            .fdj_font_fx{
+                height: 60px;
+                left: 260px;
+            }
+}
+
+
+/*buy_main_xq*/
+.buy_main_xq{
+    width: 500px;
+    height:510px;
+    float: left;
+    margin-left: 90px;
+    ul{
+        height: 230px;
+        li{
+            height: 48px;
+            line-height: 48px;
+        }
+        li:nth-child(1){
+            font-size:18px;
+            line-height: 24px;
+            font-family: "微软雅黑";
+        }
+        li:nth-child(2){
+            background-image: url(../images/shopxq/xqlog.png);
+            background-repeat: no-repeat;
+            box-sizing: border-box;
+            padding-left: 50px;
+            background-position: 0 10px;
+            color: #E50048;
+            span{
+                width: 80px;
+                height: 30px;
+                border: 1px solid #E50048;
+                display: inline-block;
+                text-align: center;
+                line-height: 30px;
+                
+            }
+        }
+        li:nth-child(3){
+            color: #888;
+            font-size: 14px;
+            b{
+                color: #E50048;
+                font-size: 24px;
+                margin-left: 10px;
+            }
+        }
+        li:nth-child(4){
+            color: #888;
+            font-size: 14px;
+            s{
+                margin-left: 10px;
+            }
+        }
+    }
+}
+.xq_active{
+    height: 32px;
+    background: #EEEEEE;
+    box-sizing: border-box;
+    padding-left: 10px;
+    line-height: 32px;
+    span{
+        display: inline-block;
+        position: relative;
+        width: 45px;
+        height: 20px;
+        background: #D4BD8A;
+        color: white;
+        line-height: 20px;
+        text-align: center;
+        margin-right: 10px;
+        font-size: 13px;
+        &:before{
+            content: '';
+            width: 0;
+            height: 0;
+            position: absolute;
+            right: -8px;
+            top: 5px;
+            border-style: solid;
+            border-width: 5px;
+            border-color: transparent transparent transparent #D4BD8A;
+        }
+    }
+    a:hover{
+        color: #E50048;
+        text-decoration: underline;
+    }
+}
+
+
+.xq_color{
+    height: 42px;
+    margin-top: 25px;
+    span{
+        width: 70px;
+        height: 40px;
+        display: inline-block;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        padding: 5px 5px 5px 27px;
+        background: url(../images/shopxq/fdjsmall1.jpg) no-repeat;
+        background-size: 20px 30px;
+        background-position: 5px 5px;
+        text-align: center;
+        cursor: pointer;
+        line-height: 30px;
+    }
+    i{
+        width: 70px;
+        height: 40px;
+        float: left;
+        color: #888;
+        margin-right: 30px;
+        font-size: 14px;        
+    }
+}
+.xq_size{
+    height: 25PX;
+    margin-top: 10px;
+     i{
+        width: 70px;
+        height: 25px;
+        float: left;
+        color: #888;
+        margin-right: 30px;
+        font-size: 14px;        
+    }
+    span{
+        color: #323333;
+        float: left;
+        margin-right: 10px;
+        width: 54px;
+        height: 23px;
+        border: 2px solid #CCCCCC;
+        text-align: center;
+        line-height: 25px;
+        cursor: pointer;
+    }
+}
+.buy_btn{
+    height: 40px;
+    margin-top: 15px;
+    input{
+        height: 40px;
+        width: 90px;
+        box-sizing: border-box;
+        border: 1px solid #CCCCCC;
+        font-size: 20px;
+        text-align: center;
+        float: left;
+    }
+    span{
+        float: left;
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid #E50048;
+        color: #E50048;
+        background:#FEEEF3;
+        margin-left: 15px;
+        cursor: pointer;
+        font-size: 22px;
+        font-weight: bold;
+        &:hover{
+            background: #FED8E4;
+        }
+    }
+    span:last-child{
+        border: none;
+        background: url(../images/shopxq/buy_btn.png);
+        &:hover{
+            background-position: 0 -40px;
+        }
+    }
+}
+.xq_font{
+    background: #F7F3E8;
+    margin-top: 30px;
+    height: 30px;
+    color: #666;
+    span{
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 28px;
+        background-image: url(../images/shopxq/icon.png);
+        background-position: 8px -40px;
+        background-repeat: no-repeat;
+    }
+}
+.buy_mian_log{
+    width: 210px;
+    height: 140px;
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    float: right;
+    a:first-child{
+        display:block;
+        width: 100px;
+        height: 60px;
+        margin:30px auto 10px;
+        background: url(../images/shopxq/mian_log.jpg) no-repeat;
+    }
+    a:last-child{
+        font-size: 15px;
+        display: block;
+        width: 150px;
+        margin:0 auto;
+        text-align: center;
+        &:hover{
+            color: #E50048;
+        }
+    }
+}
+.shopxq{
+    margin-top: 10px;
+    position: relative;
+}
+.shopxq_left{
+    width: 990px;
+    float: left;
+    background: white;
+}
+.shopxq_title{
+    height: 30px;
+    top: 0;
+    z-index: 10;
+    margin-bottom: 10px;
+    li{
+        width: 120px;
+        height: 30px;
+        line-height: 30px;
+        color: white;
+        float: left;
+        text-align: center;
+        margin-right: 1px;
+        background: #999999;
+        cursor: pointer;
+    }
+    li:first-child{
+        background: #B7AB91;
+    }
+    li:nth-child(5){
+        width: 238px;
+        margin: 0;
+        cursor: auto;
+    }
+    li:nth-child(6){
+        width: 148px;
+        margin: 0;
+        background: url(../images/shopxq/icon.png) no-repeat;
+        background-position: 0 -70px;
+        position:relative;
+        &:hover{
+          background-position: -148px -70px;  
+        }
+        &:hover div{
+            display: block;
+        }
+        div{
+            width: 146px;
+            height: 150px;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: white;
+            border: 1px solid #EEEEEE;
+            border-top: none;
+            background-image: url(../images/shopxq/ewm.png);
+            background-position:15px 15px;
+            background-size: 120px 120px;
+            background-repeat: no-repeat;
+            z-index: 1;
+            display: none;
+        }
+    }
+    li:nth-child(7){
+        background: url(../images/shopxq/buy_btn.png) no-repeat;
+        
+        background-position: -12px -350px;
+        margin: 0;
+        position: relative;
+        &:hover div{
+            display: block;
+        }
+        div{
+            position: absolute;
+            right: 0px;
+            top: 100%;
+            z-index: 1;
+            width: 290px;
+            height: 90px;
+            background-color: white;
+            box-shadow: 0 0 1px 1px  #EEEEEE;
+            box-sizing: border-box;
+            padding: 5px 0 5px 70px;
+            background-image: url(../images/shopxq/fdjsmall1.jpg);
+            background-size: 60px 80px;
+            background-repeat: no-repeat;
+            background-position: 5px 5px;
+            text-align: left;
+            cursor: auto;
+            color: #666;
+            font-size: 13px;
+            display: none;
+            line-height: 20px;
+            b:last-child{
+                color: #E50048;
+                font-size: 13px;  
+            }
+        }
+    }
+}
+.shopxq_tuijian{
+    width: 190px;
+    background: white;
+    float: right;
+    &>p{
+        height: 30px;
+        background: #999999;
+        color: white;
+        text-indent: 1em;
+        line-height: 30px;
+        font-weight: bold;
+        a{
+            float: right;
+            color: white;
+            margin-right: 10px;
+        }
+    }
+    ul{
+        width: 145px;
+        margin: auto;
+    }
+    li{
+        height: 250px;
+        padding-top: 15px;
+        box-sizing: border-box;
+        a:nth-child(1){
+            width: 120px;
+            height: 160px;
+            display: block;
+            margin: auto;
+            background: url(../images/shopxq/fdjbig3.jpg) no-repeat;
+            background-size: 100% 100%;
+            margin-bottom: 20px;
+        }
+        a:nth-child(2):hover{
+            color: #E50048;
+        }
+        p{
+            width: 90px;
+            color: #999;
+            margin: 10px auto 0px;
+            b{
+                color: #E50048;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+.shopxq_js{
+    width: 920px;
+    margin: auto;
+    &>p{
+        height: 48px;
+        background-image: url(../images/shopxq/shop_title.gif);
+        font-size: 23px;
+        font-weight: bold;
+        line-height: 48px;
+        span{
+            color: #CCCCCC;
+        }
+    }
+}
+.js_cs{
+    height: 120px;
+    margin-top: 23px;
+    margin-bottom: 30px;
+    li{
+        padding-left: 30px; 
+    }
+    li:nth-child(odd){
+      background: #EEEEEE;
+    }
+    li:nth-child(even){
+        background: #FBFBFB;
+    }
+    span{
+        width: 230px;
+        display: inline-block;
+        line-height: 30px;
+        color: #777;
+    }
+    span:last-child{
+        width: 180px;
+    }
+    
+}
+.xq_img{
+    text-align: center;
+}
+.paice{
+    height: 110px;
+    color: #666666;
+    p{
+        line-height: 20px;
+    }
+}
+.Brand_Story{
+    width: 825px;
+    height: 385px;
+    margin: 20px auto 0;
+}
+.story_left{
+    height: 350px;
+    width: 260px;
+    margin-right: 35px;
+    float: left;
+    img{
+        width: 120px;
+        margin: 0 0 20px 80px;
+    }
+    p{
+        height: 45px;
+        line-height:45px;
+        font-size: 22px;
+        font-weight: bold;
+        width: 240px;
+        color: #666666;
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 15px;
+    }
+    span{
+        color: #888;
+    }
+    a{
+        float: right;
+        color: #E62862;
+        margin-top: 35px;
+    }
+}
+
+
+
+
+.llls{
+    height: 35px;
+    line-height: 37px;
+    border-bottom: 2px solid black;
+    padding: 0 15px;
+    a{
+        font-size: 15px;
+        &:hover{
+            color: #E50048;
+        }
+    }
+    span{
+        float: right;
+        width: 12px;
+        height: 14px;
+        background: url(../images/shopxq/llls.jpg);
+        margin-top: 15px;
+        cursor: pointer;
+    }
+}
+.shopxq_pj{
+    .shopxq_js;
+}
+.user_pj{
+    height: 185px;
+    background: #FCFDF8;
+    padding: 50px 0 0 20px;
+    box-sizing: border-box;
+    ul{
+        width: 325px;
+        height: 100px;
+        box-sizing: border-box;
+        border-left: 1px solid #EEEEEE;
+        border-right: 1px solid #EEEEEE;
+        float: left;
+        padding: 0 30px;
+    }
+    li{
+        height: 20px;
+        margin-bottom: 16px;
+        color: #666666;
+        span{
+            float: left;
+            width: 170px;
+            height: 20px;
+            box-sizing: border-box;
+            border: 1px solid #DDDDDD;
+            margin: 0 10px;
+        }
+        b{
+            float: left;
+            margin-top: 3px;
+            font-weight: normal;
+        }
+        i{
+            float: left;
+            margin-top: 3px;
+        }
+    }
+    li:first-child span{
+        background: #DCD3B8;
+    }
+}
+.pj_left{
+    width: 160px;
+    height: 100px;
+    font-size: 17px;
+    color: #C4B697;
+    float: left;
+    font-weight: bold;
+    b{
+       font-size: 65px; 
+    }
+    em{
+        font-size: 40px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+}
+.pj_right{
+    width: 210px;
+    height: 25px;
+    float: left;
+    color: #666666;
+    margin-left: 25px;
+    i{
+        float: left;
+        margin-top: 2px;
+    }
+    span{
+        float: left;
+        width: 50px;
+        height: 23px;
+        border: 1px solid #DDDDDD;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 23px;
+        margin-left: 10px;
+    }
+}
+.pjxq{
+    margin:35px 0;
+    li{
+        height: 82px;
+    }
+}
+.user_xq{
+    width: 65px;
+    height: 82px;
+    margin-right: 20px;
+    float: left;
+    p:nth-child(1){
+        height: 35px;
+        background: url(../images/shopxq/user_tx.jpg) no-repeat;
+        background-position: 13px -45px;
+    }
+    p:nth-child(2){
+        height: 25px;
+        line-height: 25px;
+        color: #888;
+    }
+    p:nth-child(3){
+        height: 16px;
+        background: #ADADAD;
+        color: white;
+    }
+}
+.user_nr{
+    width: 830px;
+    height: 72px;
+    box-sizing: border-box;
+    background: #FBFBFB;
+    border: 1px solid #DDDDDD;
+    float: left;
+    padding: 0 10px;
+    position:relative;
+    &:before{
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #FBFBFB;
+        transform: rotate(45deg);
+        left: -5px;
+        top: 32px;
+//      background-image: url(../images/shopxq/left.png);
+//      background-repeat: no-repeat;
+//      background-position: 0 0;
+    }
+    p:first-child{
+        height: 30px;
+        line-height: 45px;
+        color: #666;
+    }
+    p:last-child{
+        height: 40px;
+        line-height: 40px;
+        color: #999;
+        border-top: 1px dotted #DDDDDD;
+        span:first-child{
+            margin-right: 20px;
+        }
+        span:last-child{
+            float: right;
+            font-size: 13px;
+        }
+    }
+}
+.shopxq_zx{
+   .shopxq_js;
+}
+.zxlist{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    border-bottom: 1px solid #CCCCCC;
+    select{
+        width: 110px;
+        height: 24px;
+        color: #444;
+    }
+    span{
+        float: right;
+        padding-left: 20px;
+        color: #666666;
+        background: url(../images/shopxq/shop_title.gif) no-repeat;
+        background-position: 0 -268px;
+    }
+}
+.zxlist_mian{
+    li{
+        height: 180px;
+        line-height: 180px;
+        color: #666666;
+        padding-left: 20px;
+    }
+}
+.zx_from{
+    width: 690px;
+    background: #F6F6F6;
+    border: 1px solid #CCCCCC;
+    margin: 20px auto;
+    padding: 30px 25px;
+    box-sizing: border-box;
+    p{
+        margin-bottom: 10px;
+        color: #888;
+    }
+    .zx_p{
+        padding-left: 70px;
+        margin-bottom: 5px;
+        a{
+            color: #BCA87D;
+            font-weight: bold;
+        }
+    }
+    span{
+        width: 70px;
+        height: 20px;
+        float: left;
+        text-align: left;
+        font-weight: bold;
+        color: #666666;
+    }
+    select{
+        color: #888888;
+    }
+    em{
+        color: #E50048;
+    }
+    textarea{
+        width: 320px;
+        height: 120px;
+        border: 1px solid #CCCCCC;
+    }
+}
+.zx_btn{
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    margin: 10px 0 0 210px;
+    color: white;
+    background: #4A4A4A;
+}
+.gmxz{
+ .shopxq_js;
+ ul{
+     padding: 0 20px;
+     box-sizing: border-box;
+ }  
+ li{
+     height: 105px;
+     border-top: 1px solid #F3F3F3;
+     margin-bottom: 10px;
+     padding-top: 25px;
+     box-sizing: border-box;
+     background:linear-gradient(white,#ECECEC,#ECECEC);
+     span{
+         float: left;
+         width: 75px;
+         height: 105px;
+         background-image: url(../images/shopxq/gmxz.png);
+         background-repeat: no-repeat;
+         background-position: 0 -114px;
+         margin-right: 15px;
+         margin-top: -25px;
+     }
+     p{
+         height: 60px;
+         line-height: 25px;
+         font-size: 14px;
+         color: #999;
+         &:first-line{
+             color: #666666;
+             font-weight: bold;
+         }
+     }
+ }
+     li:nth-child(2) span{
+       background-position: 0 -228px;  
+     }
+      li:nth-child(3) span{
+       background-position: 0 -342px;  
+     }
+      li:nth-child(4) span{
+       background-position: 0 -456px;  
+     }
+      li:nth-child(5) span{
+       background-position: 0 -570px;  
+     }
+      li:nth-child(6) span{
+       background-position: 0 -684px;  
+     }
+      li:nth-child(7) span{
+       background-position: 0 -798px;  
+     }
+ 
+}
+.gmxz_mian{
+    margin-bottom: 20px;
+     border: 1px dotted #DDDDDD;
+}
+.gmxz_mian_top{
+    height: 170px;
+    background:#FCFCFC;
+    padding-left: 20px;
+    span{
+        display: block;
+        height: 60px;
+        line-height: 60px;
+        font-weight: bold;
+        color: #444444;
+        font-size: 14px;
+    }
+    p{
+        height: 50px;
+        line-height: 25px;
+        color: #BCA87D;
+        font-size: 14px;
+        &:first-line{
+            color: #888;
+        }
+    }
+}
+.gmxz_main_font{
+    height: 130px;
+    padding:5px 20px;
+    background: #FCFCFC;
+    span{
+        display: block;
+        font-weight: bold;
+        font-size: 14px;
+        color: #666666;
+        margin-bottom: 10px;
+    }
+    p{
+        color: #888888;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+
+#fhtop{
+    width: 30px;
+    height: 40px;
+    background: url(../images/shopxq/top.png) no-repeat;
+    position: fixed;
+    top: 300px;
+    display: none;
+    cursor: pointer;
+}
+
+.a{
+    display: none;
+}

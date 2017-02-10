@@ -1,0 +1,117 @@
+.register{
+	width: 386px;
+	height: 460px;
+	float: right;
+	background: #f3f3f3;
+	border-radius: 5px;
+	position: relative;
+}
+.register .tishi{
+	width: 386px;
+	height: 460px;
+	background:rgba(0,0,0,.5);
+	border-radius: 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	display: none;
+}
+
+
+.tishi div{
+	width: 310px;
+	height: 155px;
+	background: white;
+	border-radius: 5px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	padding-top: 18px;
+	box-sizing: border-box;
+}
+.tishi b{
+	font-size: 20px;
+	color: #666;
+	font-weight: 400;
+}
+.tishi p{
+	height: 80px;
+	line-height: 80px;
+	font-size: 15px;
+	color:rgb(102, 102, 102);
+	box-shadow: 0 1px 0 #ccc;
+}
+.register .tishi span{
+	display: block;
+	color: #E70050;
+	line-height: 32px;
+	font-size: 16px;
+}
+.register>p:first-child{
+	height: 40px;
+	border-bottom: 3px solid #E50048;
+	background: white;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+.register>p:nth-child(2){
+	text-align: right;
+	height: 37px;
+	line-height: 37px;
+	font-size: 14px;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+.register>p:nth-child(2) a{
+	color: #E50048;
+}
+.register input{
+	height: 45px;
+	width: 100%;
+	background: white;
+	border-top: 1px solid #ccc;
+	outline: none;
+	font-size: 14px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.register>div{
+	position: relative;
+}
+.register span:first-child{
+	position: absolute;
+	right: 20px;
+	width: 88px;
+	height: 24px;
+	border: 1px solid #999;
+	border-radius: 2px;
+	color: #666;
+	top: 50%;
+	transform: translateY(-50%);
+	line-height: 24px;
+	text-align: center;
+	cursor: pointer;
+}.register_down{
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	color: #666;
+	line-height: 20px;
+}
+.register>button{
+	width: 310px;
+	height: 35px;
+	border-radius: 5px;
+	margin: 15px auto;
+	display: block;
+	color: white;
+	font-size: 14px;
+	background: #ccc;
+	outline: none;
+}

@@ -1,0 +1,9 @@
++(function(){
+	$("header").load("header.html",function(){
+		$("#search").remove();
+		$("#nav").remove();
+		$("#header_down_a").replaceAll($("#header_down"));
+		$("#header_wrap").height("155px");
+		$("#fonter").load("font.html");
+	})
+})()

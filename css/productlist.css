@@ -1,0 +1,134 @@
+body {
+  background: #EEEEEE;
+}
+/*banner*/
+#banner {
+  width: 100%;
+  border-top: 1px solid black;
+}
+.banner_mian {
+  height: 450px;
+  width: 1190px;
+  margin: auto;
+  background: url(../images/productlist/banner.jpg);
+}
+.banner_mian a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#main_log {
+  width: 1190px;
+  height: 292px;
+  background: white;
+  margin: auto;
+}
+#main_log ul {
+  width: 906px;
+  height: 291px;
+  float: right;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+#main_log ul li {
+  border-right: 1px solid black;
+  border-bottom: solid 1px black;
+  float: left;
+  height: 96px;
+  width: 150px;
+}
+#main_log ul a {
+  width: 100%;
+  height: 96px;
+  display: block;
+  position: relative;
+}
+#main_log ul a img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main_log_left {
+  width: 280px;
+  height: 292px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  float: left;
+}
+.main_log_left a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../images/productlist/main_log_left.jpg);
+}
+#main_yrf {
+  width: 1190px;
+  background: white;
+  height: 1598px;
+  margin: auto;
+  padding: 38px 25px 0;
+  box-sizing: border-box;
+}
+#main_yrf > p {
+  height: 60px;
+  width: 1190px !important;
+  margin-left: -25px;
+  background: url(../images/productlist/main_yrf.jpg);
+}
+#main_yrf > p a {
+  display: block;
+  width: 60px;
+  height: 20px;
+  float: right;
+  margin: 20px 20px 0 0;
+}
+.main_yrf_main {
+  height: 300px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.main_yrf_main_one {
+  width: 150px;
+  height: 280px;
+  float: left;
+  margin-right: 48px;
+}
+.main_yrf_main_one a:first-child {
+  height: 200px;
+  background: url(../images/productlist/main_log_left.jpg);
+  display: block;
+  background-size: 100% 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.main_yrf_main_one a:nth-child(2) {
+  color: black;
+  display: block;
+  line-height: 24px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.main_yrf_main_one a:nth-child(3) {
+  display: block;
+  line-height: 18px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+.main_yrf_main_one em {
+  color: #E50048;
+  margin-left: 10px;
+}
+.main_yrf_main_one s {
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 10px;
+}
+.main_yrf_main_one:last-child {
+  margin: 0;
+}
+#fonter {
+  padding-top: 30px;
+}
+/*# sourceMappingURL=productlist.css.map */

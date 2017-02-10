@@ -1,0 +1,10 @@
+(function(){
+	$("header").load("header.html",function(){
+		$.getScript("script/header.js");
+	});
+	$("#fonter").load("font.html");
+	$("#conten").load("oder.html",function(){
+		$.getScript("script/oder.js");
+		$(".mian_right").replaceAll(".mian_rightA");
+	})
+})();

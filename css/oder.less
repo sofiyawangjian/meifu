@@ -1,0 +1,117 @@
+header{
+
+
+}
+
+body{
+    background: #EEEEEE;
+}
+#main_wrap{
+    width: 980px;
+    height: 670px;
+    margin: auto;
+}
+#main_wrap>p{
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+#main{
+    height: 630px;
+    padding: 15px 20px 0 15px;
+    box-sizing: border-box;
+    background: white;
+}
+
+.main_left>a:first-child{
+        height: 80px;
+        display: block;
+        background-image: url(../images/oder_main.png);
+ }
+
+
+.main_left{
+    width: 180px;
+    height: 450px;
+    float: left;
+    
+    ul{
+      div{
+          border: 1px solid #ccc;      
+          background: #eee;
+          width: 100%;
+          display: none;
+          box-sizing: border-box;
+          overflow: hidden;
+          position: relative;
+          top: -5px;
+          a{
+              display: block;
+              box-sizing: border-box;
+              padding-left: 30px;
+              font-size: 13px;
+              height: 20px;
+              margin: 8px 0;
+              color: #666;
+              font-weight: bold;
+              &:hover{
+                  color: #E50048;
+              }
+          }
+      }  
+    }
+   li{
+        height: 35px;
+        display: block;
+        background-image: url(../images/oder_main.png);
+        background-position: 0px -80px;
+        margin: 10px 0 0 0;
+        box-sizing: border-box;
+        line-height: 40px;
+        position: relative;
+       span:first-child{
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            color: white;
+            padding:10px  0 0 20px;
+            box-sizing: border-box;
+            font-size: 14px;
+            font-weight: bold;
+            background: url(../images/oder_main_log.png) 0 0 no-repeat;
+            background-position: 15px 12px;
+            float: left;
+       }
+       span:nth-child(3){
+           display: block;
+           width: 20px;
+           height: 20px;
+          
+           position: absolute;
+           right: 10px;
+           top: 5px;
+       }
+       span:nth-child(3):after{
+           content: '';
+           position: absolute;
+           width: 15px;
+           height: 3px;
+           background: #CCCCCC;
+           border-radius: 3px;
+           bottom: 0;
+           left: 0;
+       }
+       a{
+           float: left;
+           color: white;
+           font-size: 14px;
+       }
+   }
+   
+}
+
+
+
+
+
+

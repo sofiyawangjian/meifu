@@ -1,0 +1,63 @@
+body {
+  background: #EEEEEE;
+}
+#header_down_a {
+  height: 120px;
+  background: white;
+}
+.header_down_a_main {
+  width: 1190px;
+  height: 120px;
+  margin: auto;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+#active {
+  width: 980px;
+  height: 144px;
+  margin: auto;
+}
+#main {
+  width: 980px;
+  background: white;
+  margin: 26px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.main_top {
+  height: 80px;
+}
+.main_top i {
+  float: left;
+  width: 111px;
+  margin-right: 270px;
+  height: 80px;
+  background: url(../images/gwcck/ck_mian_top.jpg) no-repeat;
+  background-position: 0 0;
+}
+.main_top span {
+  float: left;
+  height: 65px;
+  color: #999;
+  font-size: 13px;
+  line-height: 40px;
+  background: url(../images/gwcck/ck_mian_top.jpg) no-repeat;
+  background-position: 0 0;
+  text-align: center;
+}
+.main_top span:nth-child(2) {
+  width: 130px;
+  background-position: -165px -40px;
+  color: #E50048;
+  text-align: left;
+}
+.main_top span:nth-child(3) {
+  width: 270px;
+  background-position: -300px 14px;
+}
+.main_top span:nth-child(4) {
+  width: 130px;
+  text-align: right;
+  background-position: -564px 14px;
+}
+/*# sourceMappingURL=gwcck.css.map */

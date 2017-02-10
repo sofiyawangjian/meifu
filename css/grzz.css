@@ -1,0 +1,173 @@
+.mian_right {
+  width: 755px;
+  height: 610px;
+  float: right;
+}
+.main_right_zhxx {
+  height: 310px;
+  box-sizing: border-box;
+}
+.zhxx_username {
+  height: 45px;
+  line-height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.zhxx_bd {
+  color: #888;
+  height: 20px;
+  line-height: 20px;
+}
+.zhxx_bd a {
+  box-sizing: border-box;
+  padding-left: 20px;
+  width: 80px;
+  color: #E50048;
+  text-decoration: underline;
+  background: url(../images/grzz/user_home.png) no-repeat;
+  background-position: 0 -81px;
+  float: right;
+  margin-left: 20px;
+}
+.zhxx_bd span {
+  width: 75px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  color: #333333;
+  display: inline-block;
+  background: url(../images/grzz/user_home.png) no-repeat;
+  background-position: 0 -37px;
+  float: right;
+  color: #666666;
+}
+.zhxx_main {
+  height: 235px;
+  box-sizing: border-box;
+  border: 1px solid #CCCCCC;
+  margin-top: 10px;
+  box-shadow: 0 1px 1px #CCCCCC;
+  background: #EEEEEE;
+  padding: 10px;
+}
+.zhxx_main p {
+  height: 25px;
+  line-height: 25px;
+  color: #666666;
+  font-size: 13px;
+  border-bottom: 1px solid #DDDDDD;
+  margin-bottom: 10px;
+}
+.zhxx_main p a {
+  padding-left: 20px;
+  text-decoration: underline;
+  background: url(../images/grzz/yk.png) no-repeat;
+  background-position: 0 -5px;
+}
+.zhxx_main p a:last-child {
+  background: url(../images/grzz/jk.png) no-repeat;
+  background-position: 0 -5px;
+}
+.zhxx_main ul {
+  width: 505px;
+  height: 180px;
+  border-right: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  padding: 0 15px;
+  float: left;
+}
+.zhxx_main ul li:last-child {
+  border: none;
+}
+.zhxx_main .zhxx_mian_r {
+  float: left;
+  width: 205px;
+  margin-left: 10px;
+}
+.zhxx_main li {
+  height: 35px;
+  line-height: 35px;
+  color: #888;
+  box-sizing: border-box;
+  border-bottom: 1px dotted #CCCCCC;
+}
+.zhxx_main li strong {
+  color: #E50048;
+  text-decoration: underline;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0 5px;
+}
+.zhxx_main li span {
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  background: #B0B0B0;
+  border: 1px solid #666;
+  text-align: center;
+  line-height: 18px;
+  color: white;
+  margin-left: 10px;
+}
+.zhxx_main li span:hover {
+  background: #666666;
+}
+.mian_right_like {
+  height: 280px;
+  margin-top: 15px;
+} /**/
+.mian_right_like > p {
+  height: 38px;
+  line-height: 38px;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  background: #666666;
+  text-indent: 1em;
+  position: relative;
+}
+.mian_right_like > p span {
+  width: 10px;
+  height: 38px;
+  position: absolute;
+  left: -10px;
+  top: 0;
+  background: #666666;
+}
+.mian_right_like > p span:after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  bottom: -6px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+  border-width: 7px;
+  transform: rotate(45deg);
+}
+.mian_right_like ul {
+  height: 220px;
+  margin-top: 15px;
+}
+.mian_right_like li {
+  height: 220px;
+  width: 120px;
+  float: left;
+  margin-left: 25px;
+}
+.mian_right_like li a {
+  overflow: hidden;
+  display: inline-block;
+  height: 40px;
+  line-height: 20px;
+}
+.mian_right_like li a:hover {
+  color: #E50048;
+}
+.mian_right_like li p {
+  color: #E50048;
+  font-size: 13px;
+}
+.mian_right_like li p s {
+  margin-left: 25px;
+  color: #888;
+}
+/*# sourceMappingURL=grzz.css.map */
